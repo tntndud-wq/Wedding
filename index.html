@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>이은석 ♥ 전영아 결혼합니다.</title>
+
+<!-- Open Graph (카카오톡·문자 링크 미리보기) -->
+<meta property="og:url"         content="https://famous-stroopwafel-5b540d.netlify.app/">
+<meta property="og:type"        content="website">
+<meta property="og:title"       content="이은석 ♥ 전영아 결혼합니다.">
+<meta property="og:description" content="2026년 5월 25일 (월) 낮 12시 30분 · 더 라움 THE RAUM">
+<meta property="og:image"       content="https://famous-stroopwafel-5b540d.netlify.app/og-image.jpg">
+<meta property="og:locale"      content="ko_KR">
+
+<!-- Twitter Card -->
+<meta name="twitter:card"        content="summary_large_image">
+<meta name="twitter:title"       content="이은석 ♥ 전영아 결혼합니다.">
+<meta name="twitter:description" content="2026년 5월 25일 (월) 낮 12시 30분 · 더 라움 THE RAUM">
+<meta name="twitter:image"       content="https://famous-stroopwafel-5b540d.netlify.app/og-image.jpg">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;500&family=Noto+Sans+KR:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+* { margin:0; padding:0; box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+:root {
+  --beige: #f7f4ef;
+  --line:  #e8e2d9;
+  --gold:  #b8964e;
+  --gold2: #d4aa6a;
+  --text:  #2c2c2c;
+  --mid:   #6b6560;
+  --light: #9e9890;
+  --rose:  #c97b7b;
+  --rose2: #e8c4c4;
+}
+body {
+  background: var(--beige);
+  font-family: 'Noto Serif KR', serif;
+  color: var(--text);
+  max-width: 480px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+/* ── HERO ── */
+.hero {
+  background: #fff;
+  padding: 0 0 48px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.hero-floral {
+  width: 100%;
+  height: 260px;
+  display: block;
+}
+.hero-badge {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 10px;
+  letter-spacing: .3em;
+  color: var(--gold);
+  font-weight: 300;
+  margin-bottom: 14px;
+  text-transform: uppercase;
+}
+.hero-date {
+  font-size: 52px;
+  font-weight: 400;
+  color: var(--gold);
+  letter-spacing: .04em;
+  line-height: 1;
+  margin-bottom: 18px;
+  font-family: 'Noto Serif KR', serif;
+}
+.hero-names {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--text);
+  letter-spacing: .18em;
+  margin-bottom: 20px;
+}
+.hero-names .dash {
+  color: var(--gold2);
+  margin: 0 6px;
+}
+.hero-info {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 11px;
+  font-weight: 300;
+  color: var(--mid);
+  letter-spacing: .12em;
+  line-height: 2;
+}
+
+/* ── SECTION COMMON ── */
+.section {
+  background: #fff;
+  margin-top: 8px;
+  padding: 44px 28px;
+}
+.sec-label {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 10px;
+  letter-spacing: .35em;
+  color: var(--gold);
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+}
+.divider {
+  height: .5px;
+  background: var(--line);
+  margin: 24px 0;
+}
+
+/* ── INVITATION ── */
+.invite-text {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 2.2;
+  color: var(--mid);
+  text-align: center;
+  word-break: keep-all;
+}
+.invite-text strong { font-weight: 400; color: var(--text); }
+
+/* 신랑·신부 연락 */
+.couple-contacts { margin-top: 28px; }
+.contact-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 18px 0;
+  border-bottom: .5px solid var(--line);
+}
+.contact-row:first-child { border-top: .5px solid var(--line); }
+.contact-label {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 11px;
+  font-weight: 300;
+  color: var(--light);
+  letter-spacing: .08em;
+}
+.contact-name {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text);
+  letter-spacing: .1em;
+}
+.contact-icons { display: flex; gap: 10px; }
+.ico-btn {
+  width: 30px; height: 30px;
+  border-radius: 50%;
+  border: .5px solid var(--line);
+  background: #fff;
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer; text-decoration: none;
+  transition: background .15s;
+}
+.ico-btn:hover { background: var(--beige); }
+.ico-btn svg { width: 13px; height: 13px; fill: none; stroke: var(--mid); stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+
+/* 혼주 연락처 accordion */
+.accordion-btn {
+  width: 100%;
+  display: flex; align-items: center; justify-content: center; gap: 6px;
+  padding: 13px 0;
+  background: var(--beige);
+  border: none; border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--mid);
+  letter-spacing: .05em;
+  margin-top: 16px;
+  transition: background .15s;
+}
+.accordion-btn:hover { background: #ede8df; }
+.accordion-btn .chev {
+  width: 14px; height: 14px; stroke: var(--mid);
+  transition: transform .3s;
+  fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round;
+}
+.accordion-btn.open .chev { transform: rotate(180deg); }
+.accordion-body {
+  display: none;
+  padding: 20px 0 4px;
+}
+.accordion-body.open { display: block; }
+.parent-grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 16px;
+}
+.parent-col { text-align: center; }
+.parent-side {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 10px; letter-spacing: .2em; color: var(--gold);
+  display: block; margin-bottom: 10px; text-transform: uppercase;
+}
+.parent-item {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 8px 0; border-bottom: .5px solid var(--line);
+}
+.parent-item:first-of-type { border-top: .5px solid var(--line); }
+.pname { font-size: 12px; font-weight: 400; color: var(--text); }
+.p-icons { display: flex; gap: 6px; }
+
+/* ── CALENDAR ── */
+.cal-date-title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: .06em;
+  margin-bottom: 4px;
+}
+.cal-date-sub {
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  color: var(--mid);
+  margin-bottom: 28px;
+  letter-spacing: .06em;
+}
+.calendar { width: 100%; }
+.cal-header {
+  display: grid; grid-template-columns: repeat(7, 1fr);
+  margin-bottom: 6px;
+}
+.cal-header span {
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 11px; font-weight: 400; color: var(--mid);
+  padding: 4px 0;
+}
+.cal-header span:first-child { color: #e07070; }
+.cal-header span:last-child  { color: #5a82c9; }
+.cal-grid {
+  display: grid; grid-template-columns: repeat(7, 1fr);
+  row-gap: 2px;
+}
+.cal-cell {
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 13px;
+  padding: 8px 2px;
+  color: var(--text);
+  position: relative;
+}
+.cal-cell.sun { color: #e07070; }
+.cal-cell.sat { color: #5a82c9; }
+.cal-cell.empty { }
+.cal-cell.today-mark {
+  color: #fff;
+  font-weight: 500;
+}
+.cal-cell.today-mark::before {
+  content: '';
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 32px; height: 32px;
+  background: var(--rose);
+  border-radius: 50%;
+  z-index: 0;
+}
+.cal-cell.today-mark span { position: relative; z-index: 1; }
+
+/* countdown */
+.countdown {
+  margin-top: 28px;
+  padding-top: 24px;
+  border-top: .5px solid var(--line);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+}
+.cd-block { position: relative; }
+.cd-block:not(:last-child)::after {
+  content: ':';
+  position: absolute;
+  right: -1px; top: 8px;
+  font-size: 22px;
+  color: var(--light);
+  font-weight: 300;
+}
+.cd-num {
+  font-size: 28px;
+  font-weight: 400;
+  color: var(--text);
+  display: block;
+  line-height: 1.2;
+}
+.cd-label {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 9px;
+  letter-spacing: .2em;
+  color: var(--light);
+  display: block;
+  margin-top: 3px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.cd-msg {
+  text-align: center;
+  margin-top: 16px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  color: var(--mid);
+  letter-spacing: .04em;
+}
+
+/* ── GALLERY ── */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px 130px;
+  gap: 4px;
+}
+.g-slot {
+  background: #f0ece6;
+  border-radius: 2px;
+  overflow: hidden;
+  display: flex; align-items: center; justify-content: center;
+  flex-direction: column; gap: 6px;
+}
+.g-slot:first-child { grid-row: span 2; }
+.g-slot svg { width: 22px; height: 22px; stroke: #c8bfb0; fill: none; stroke-width: 1; stroke-linecap: round; }
+.g-slot-label { font-family:'Noto Sans KR',sans-serif; font-size:10px; color:#c8bfb0; letter-spacing:.08em; }
+.gallery-note {
+  text-align: center; margin-top: 10px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 10.5px; color: var(--light); font-weight: 300; letter-spacing: .06em;
+}
+
+/* ── MAP ── */
+.venue-name {
+  text-align: center; font-size: 16px; font-weight: 400;
+  margin-bottom: 4px; letter-spacing: .06em;
+}
+.venue-addr {
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 12px; font-weight: 300; color: var(--mid);
+  margin-bottom: 4px; letter-spacing: .04em;
+}
+.venue-tel {
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 12px; font-weight: 300; color: var(--mid);
+  margin-bottom: 20px;
+}
+.map-frame {
+  width: 100%; height: 200px; border-radius: 4px; overflow: hidden;
+  border: .5px solid var(--line); margin-bottom: 12px;
+}
+.map-frame iframe { width: 100%; height: 100%; border: none; display: block; }
+
+/* 약도 버튼 */
+.map-link-btn {
+  display: flex; align-items: center; justify-content: center; gap: 8px;
+  width: 100%; padding: 11px;
+  border: .5px solid var(--line); border-radius: 4px;
+  background: #fff; cursor: pointer; text-decoration: none;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 12px; font-weight: 400; color: var(--mid);
+  margin-bottom: 20px; transition: background .15s;
+}
+.map-link-btn:hover { background: var(--beige); }
+.map-link-btn svg { width: 14px; height: 14px; }
+
+/* 내비게이션 앱 버튼 */
+.navi-label {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 12px; font-weight: 500; color: var(--text);
+  margin-bottom: 8px; display: block;
+}
+.navi-sub {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 11px; font-weight: 300; color: var(--light);
+  margin-bottom: 12px; display: block;
+}
+.navi-btns {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;
+  margin-bottom: 24px;
+}
+.navi-btn {
+  display: flex; flex-direction: column; align-items: center; gap: 5px;
+  padding: 10px 8px; border: .5px solid var(--line); border-radius: 6px;
+  background: #fff; cursor: pointer; text-decoration: none;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 11px; font-weight: 300; color: var(--mid);
+  transition: background .15s;
+}
+.navi-btn:hover { background: var(--beige); }
+.navi-btn .navi-ico {
+  width: 28px; height: 28px; border-radius: 6px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 15px;
+}
+.navi-naver { background: #03c75a; }
+.navi-tmap  { background: #ef3d49; }
+.navi-kakao { background: #ffe600; }
+
+/* 교통 정보 */
+.transport-block { margin-top: 4px; }
+.tr-item { margin-bottom: 20px; }
+.tr-title {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 12px; font-weight: 500; color: var(--text);
+  margin-bottom: 10px; display: flex; align-items: center; gap: 6px;
+}
+.tr-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+.tr-dot.subway-7  { background: #747f00; }
+.tr-dot.subway-bd { background: #ffd600; border: .5px solid #ccc; }
+.tr-dot.bus-g  { background: #53b332; }
+.tr-dot.bus-bl { background: #3869c9; }
+.tr-desc {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 12px; font-weight: 300; color: var(--mid);
+  line-height: 1.9; padding-left: 14px;
+}
+.tr-desc strong { font-weight: 500; color: var(--text); }
+
+/* ── ACCOUNT ── */
+.acc-tab-wrap {
+  display: flex; border: .5px solid var(--line); border-radius: 20px;
+  overflow: hidden; width: 180px; margin: 0 auto 24px;
+}
+.acc-tab {
+  flex: 1; text-align: center; padding: 8px 0;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 12px; font-weight: 400; color: var(--mid);
+  cursor: pointer; border: none; background: transparent; transition: all .2s;
+  border-radius: 20px;
+}
+.acc-tab.active { background: var(--text); color: #fff; }
+.acc-note {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 12px; font-weight: 300; color: var(--mid);
+  text-align: center; line-height: 1.9; margin-bottom: 20px;
+}
+.acc-panel { display: none; }
+.acc-panel.active { display: block; }
+.acc-row {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 13px 14px;
+  border: .5px solid var(--line); border-radius: 6px;
+  margin-bottom: 8px;
+}
+.acc-info { flex: 1; }
+.acc-person {
+  font-size: 13px; font-weight: 400; color: var(--text);
+  display: block; margin-bottom: 4px;
+}
+.acc-bank-num {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 11.5px; font-weight: 300; color: var(--mid);
+  display: flex; align-items: center; gap: 4px;
+}
+.copy-ico {
+  background: none; border: none; cursor: pointer; padding: 2px;
+  display: flex; align-items: center;
+}
+.copy-ico svg { width: 13px; height: 13px; stroke: var(--light); fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.copy-ico.ok svg { stroke: #53b332; }
+
+.kakao-row {
+  display: flex; align-items: center; justify-content: center; gap: 8px;
+  padding: 11px; border: .5px solid #ffe600;
+  border-radius: 6px; background: #fffde7; margin-top: 4px;
+  cursor: pointer; font-family: 'Noto Sans KR', sans-serif;
+  font-size: 12px; font-weight: 400; color: #3a3020;
+}
+.kakao-ico { font-size: 16px; }
+</style>
+</head>
+<body>
+
+<!-- ① HERO -->
+<div class="hero">
+  <!-- Floral SVG illustration -->
+  <svg class="hero-floral" viewBox="0 0 480 260" xmlns="http://www.w3.org/2000/svg">
+    <rect width="480" height="260" fill="#fff"/>
+    <!-- Branches -->
+    <path d="M60,260 Q80,200 120,150 Q150,110 180,80 Q200,60 210,40" stroke="#8aab80" stroke-width="2" fill="none"/>
+    <path d="M120,150 Q100,120 95,90" stroke="#8aab80" stroke-width="1.5" fill="none"/>
+    <path d="M150,110 Q140,80 145,55" stroke="#8aab80" stroke-width="1.5" fill="none"/>
+    <path d="M180,80 Q200,50 195,25" stroke="#8aab80" stroke-width="1.5" fill="none"/>
+    <path d="M120,150 Q145,135 160,115" stroke="#8aab80" stroke-width="1.2" fill="none"/>
+
+    <!-- Leaves -->
+    <ellipse cx="95" cy="105" rx="12" ry="20" fill="#6a9e6a" opacity=".75" transform="rotate(-30 95 105)"/>
+    <ellipse cx="108" cy="92" rx="10" ry="16" fill="#7ab87a" opacity=".65" transform="rotate(-50 108 92)"/>
+    <ellipse cx="148" cy="68" rx="10" ry="18" fill="#6a9e6a" opacity=".75" transform="rotate(-20 148 68)"/>
+    <ellipse cx="162" cy="58" rx="8" ry="14" fill="#7ab87a" opacity=".6" transform="rotate(-55 162 58)"/>
+    <ellipse cx="197" cy="38" rx="9" ry="16" fill="#6a9e6a" opacity=".7" transform="rotate(-15 197 38)"/>
+    <ellipse cx="210" cy="28" rx="7" ry="12" fill="#7ab87a" opacity=".6" transform="rotate(-60 210 28)"/>
+    <ellipse cx="160" cy="118" rx="9" ry="15" fill="#6a9e6a" opacity=".6" transform="rotate(20 160 118)"/>
+
+    <!-- White flower clusters: small 5-petal blossoms -->
+    <!-- Cluster 1 near top branch -->
+    <g opacity=".9">
+      <circle cx="198" cy="32" r="7" fill="#fff" stroke="#e8d8c0" stroke-width=".5"/>
+      <circle cx="208" cy="25" r="6" fill="#fff" stroke="#e8d8c0" stroke-width=".5"/>
+      <circle cx="215" cy="35" r="5.5" fill="#fff" stroke="#e8d8c0" stroke-width=".5"/>
+      <circle cx="205" cy="40" r="5" fill="#fff" stroke="#e8d8c0" stroke-width=".5"/>
+      <!-- petal detail -->
+      <circle cx="198" cy="32" r="2.5" fill="#f5e8d0"/>
+      <circle cx="208" cy="25" r="2" fill="#f5e8d0"/>
+      <circle cx="215" cy="35" r="2" fill="#f5e8d0"/>
+    </g>
+    <!-- Cluster 2 mid branch -->
+    <g opacity=".85">
+      <circle cx="144" cy="60" r="7" fill="#fff" stroke="#e8d8c0" stroke-width=".5"/>
+      <circle cx="153" cy="53" r="6" fill="#fff" stroke="#e8d8c0" stroke-width=".5"/>
+      <circle cx="158" cy="63" r="5.5" fill="#fff" stroke="#e8d8c0" stroke-width=".5"/>
+      <circle cx="148" cy="70" r="5" fill="#fff" stroke="#e8d8c0" stroke-width=".5"/>
+      <circle cx="137" cy="65" r="5" fill="#fff" stroke="#e8d8c0" stroke-width=".5"/>
+      <circle cx="144" cy="60" r="2.5" fill="#f5e8d0"/>
+      <circle cx="153" cy="53" r="2" fill="#f5e8d0"/>
+    </g>
+    <!-- Cluster 3 lower -->
+    <g opacity=".8">
+      <circle cx="98" cy="88" r="7" fill="#fff" stroke="#e8d8c0" stroke-width=".5"/>
+      <circle cx="108" cy="82" r="6.5" fill="#fff" stroke="#e8d8c0" stroke-width=".5"/>
+      <circle cx="113" cy="93" r="5.5" fill="#fff" stroke="#e8d8c0" stroke-width=".5"/>
+      <circle cx="102" cy="98" r="5" fill="#fff" stroke="#e8d8c0" stroke-width=".5"/>
+      <circle cx="90" cy="93" r="5" fill="#fff" stroke="#e8d8c0" stroke-width=".5"/>
+      <circle cx="98" cy="88" r="2.5" fill="#f5e8d0"/>
+      <circle cx="108" cy="82" r="2" fill="#f5e8d0"/>
+    </g>
+    <!-- Small scattered blossoms -->
+    <circle cx="170" cy="90" r="4.5" fill="#fff" stroke="#e8d8c0" stroke-width=".5"/>
+    <circle cx="165" cy="84" r="4" fill="#fff" stroke="#e8d8c0" stroke-width=".5"/>
+    <circle cx="175" cy="83" r="3.5" fill="#fff" stroke="#e8d8c0" stroke-width=".5"/>
+
+    <!-- Tiny star-dot accents -->
+    <g fill="#d4b870" opacity=".5">
+      <circle cx="260" cy="40" r="1.5"/>
+      <circle cx="280" cy="60" r="1"/>
+      <circle cx="300" cy="30" r="1.5"/>
+      <circle cx="320" cy="50" r="1"/>
+      <circle cx="250" cy="70" r="1"/>
+      <circle cx="340" cy="20" r="1.5"/>
+      <circle cx="360" cy="45" r="1"/>
+      <circle cx="380" cy="30" r="1.5"/>
+    </g>
+  </svg>
+
+  <p class="hero-badge">You're Invited</p>
+  <p class="hero-date">5.25</p>
+  <p class="hero-names">이은석<span class="dash">─</span>전영아</p>
+  <p class="hero-info">
+    2026년 5월 25일 (월) 낮 12시 30분<br>
+    더 라움 THE RAUM
+  </p>
+</div>
+
+<!-- ② INVITATION -->
+<div class="section">
+  <p class="sec-label">Invitation</p>
+  <p class="invite-text">
+    서로에게 가장 소중한 사람이 되어<br>
+    함께 걸어온 시간을 이제<br>
+    평생의 인연으로 이어가려 합니다.<br><br>
+    귀한 발걸음 하시어<br>
+    두 사람의 첫 출발을 축복해 주시면<br>
+    더없는 기쁨으로 간직하겠습니다.
+  </p>
+
+  <div class="divider"></div>
+
+  <!-- 혼주 정보 텍스트 -->
+  <p style="text-align:center;font-family:'Noto Sans KR',sans-serif;font-size:12.5px;font-weight:300;color:var(--mid);line-height:2.2;margin-bottom:24px">
+    부 이규효 · 모 전해영의 차남 <strong style="font-weight:500;color:var(--text)">이은석</strong><br>
+    부 전광수 · 모 노순이의 장녀 <strong style="font-weight:500;color:var(--text)">전영아</strong>
+  </p>
+
+  <div class="divider"></div>
+
+  <!-- 신랑·신부 연락 -->
+  <div class="couple-contacts">
+    <div class="contact-row">
+      <span class="contact-label">신랑</span>
+      <span class="contact-name">이은석</span>
+      <div class="contact-icons">
+        <a href="tel:010-4541-6740" class="ico-btn">
+          <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.41 2 2 0 0 1 3.6 1.24h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.82a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        </a>
+        <a href="sms:010-4541-6740" class="ico-btn">
+          <svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="contact-row">
+      <span class="contact-label">신부</span>
+      <span class="contact-name">전영아</span>
+      <div class="contact-icons">
+        <a href="tel:010-7777-2731" class="ico-btn">
+          <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.41 2 2 0 0 1 3.6 1.24h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.82a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        </a>
+        <a href="sms:010-7777-2731" class="ico-btn">
+          <svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 혼주 아코디언 -->
+  <button class="accordion-btn" id="parentBtn" onclick="toggleParents()">
+    혼주에게 연락하기
+    <svg class="chev" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+  </button>
+  <div class="accordion-body" id="parentBody">
+    <div class="parent-grid">
+      <div class="parent-col">
+        <span class="parent-side">신랑측</span>
+        <div class="parent-item">
+          <span class="pname">아버지 이규효</span>
+          <div class="p-icons">
+            <a href="tel:010-8932-6740" class="ico-btn"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.41 2 2 0 0 1 3.6 1.24h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.82a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></a>
+            <a href="sms:010-8932-6740" class="ico-btn"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></a>
+          </div>
+        </div>
+        <div class="parent-item">
+          <span class="pname">어머니 전해영</span>
+          <div class="p-icons">
+            <a href="tel:010-6258-9072" class="ico-btn"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.41 2 2 0 0 1 3.6 1.24h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.82a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></a>
+            <a href="sms:010-6258-9072" class="ico-btn"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></a>
+          </div>
+        </div>
+      </div>
+      <div class="parent-col">
+        <span class="parent-side">신부측</span>
+        <div class="parent-item">
+          <span class="pname">아버지 전광수</span>
+          <div class="p-icons">
+            <a href="tel:010-8763-4661" class="ico-btn"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.41 2 2 0 0 1 3.6 1.24h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.82a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></a>
+            <a href="sms:010-8763-4661" class="ico-btn"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></a>
+          </div>
+        </div>
+        <div class="parent-item">
+          <span class="pname">어머니 노순이</span>
+          <div class="p-icons">
+            <a href="tel:010-3477-4661" class="ico-btn"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.41 2 2 0 0 1 3.6 1.24h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.82a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></a>
+            <a href="sms:010-3477-4661" class="ico-btn"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ③ CALENDAR -->
+<div class="section">
+  <p class="sec-label">Date</p>
+  <p class="cal-date-title">2026.05.25</p>
+  <p class="cal-date-sub">월요일 낮 12시 30분</p>
+
+  <div class="calendar">
+    <div class="cal-header">
+      <span>일</span><span>월</span><span>화</span><span>수</span><span>목</span><span>금</span><span>토</span>
+    </div>
+    <div class="cal-grid">
+      <!-- May 2026: starts on Friday (day 5 = index 5) -->
+      <div class="cal-cell empty"></div>
+      <div class="cal-cell empty"></div>
+      <div class="cal-cell empty"></div>
+      <div class="cal-cell empty"></div>
+      <div class="cal-cell empty"></div>
+      <div class="cal-cell">1</div>
+      <div class="cal-cell sat">2</div>
+      <div class="cal-cell sun">3</div>
+      <div class="cal-cell">4</div>
+      <div class="cal-cell">5</div>
+      <div class="cal-cell">6</div>
+      <div class="cal-cell">7</div>
+      <div class="cal-cell">8</div>
+      <div class="cal-cell sat">9</div>
+      <div class="cal-cell sun">10</div>
+      <div class="cal-cell">11</div>
+      <div class="cal-cell">12</div>
+      <div class="cal-cell">13</div>
+      <div class="cal-cell">14</div>
+      <div class="cal-cell">15</div>
+      <div class="cal-cell sat">16</div>
+      <div class="cal-cell sun">17</div>
+      <div class="cal-cell">18</div>
+      <div class="cal-cell">19</div>
+      <div class="cal-cell">20</div>
+      <div class="cal-cell">21</div>
+      <div class="cal-cell">22</div>
+      <div class="cal-cell sat">23</div>
+      <div class="cal-cell sun">24</div>
+      <div class="cal-cell today-mark"><span>25</span></div>
+      <div class="cal-cell">26</div>
+      <div class="cal-cell">27</div>
+      <div class="cal-cell">28</div>
+      <div class="cal-cell">29</div>
+      <div class="cal-cell sat">30</div>
+      <div class="cal-cell sun">31</div>
+    </div>
+  </div>
+
+  <div class="countdown">
+    <div class="cd-block"><span class="cd-num" id="cd-days">-</span><span class="cd-label">Days</span></div>
+    <div class="cd-block"><span class="cd-num" id="cd-hours">-</span><span class="cd-label">Hour</span></div>
+    <div class="cd-block"><span class="cd-num" id="cd-mins">-</span><span class="cd-label">Min</span></div>
+    <div class="cd-block"><span class="cd-num" id="cd-secs">-</span><span class="cd-label">Sec</span></div>
+  </div>
+  <p class="cd-msg" id="cd-msg"></p>
+</div>
+
+
+<!-- ⑤ MAP -->
+<div class="section">
+  <p class="sec-label">Location</p>
+  <p class="venue-name">더 라움</p>
+  <p class="venue-addr">서울 강남구 언주로 564 (역삼동 680-1)</p>
+  <p class="venue-tel">Tel. 02-538-3366</p>
+
+  <div style="width:100%;height:220px;border-radius:4px;border:.5px solid var(--line);overflow:hidden;margin-bottom:12px;">
+    <iframe
+      src="https://maps.google.com/maps?q=37.5083107,127.0397883&z=16&output=embed&hl=ko"
+      width="100%" height="100%"
+      style="border:none;display:block;"
+      allowfullscreen
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      title="더 라움 위치">
+    </iframe>
+  </div>
+
+  <a href="https://naver.me/F2Zua6Bq" target="_blank" rel="noopener" class="map-link-btn">
+    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+    약도 이미지 보기
+  </a>
+
+  <!-- 내비게이션 -->
+  <span class="navi-label">내비게이션</span>
+  <span class="navi-sub">원하시는 앱을 선택하시면 길안내가 시작됩니다.</span>
+  <div class="navi-btns">
+    <a href="nmap://route/walk?dlat=37.5083&dlng=127.0398&dname=더라움&appname=wedding" class="navi-btn">
+      <div class="navi-ico navi-naver"><span style="color:#fff;font-weight:700;font-size:13px;font-family:sans-serif">N</span></div>
+      네이버지도
+    </a>
+    <a href="tmap://route?goalname=더라움&goalx=127.0398&goaly=37.5083" class="navi-btn">
+      <div class="navi-ico navi-tmap"><span style="color:#fff;font-weight:700;font-size:11px;font-family:sans-serif">T</span></div>
+      티맵
+    </a>
+    <a href="kakaomap://route?ep=37.5083,127.0398&by=CAR" class="navi-btn">
+      <div class="navi-ico navi-kakao"><span style="color:#3a1f00;font-weight:700;font-size:11px;font-family:sans-serif">K</span></div>
+      카카오내비
+    </a>
+  </div>
+
+  <div class="transport-block">
+    <div class="tr-item">
+      <p class="tr-title">
+        <span class="tr-dot" style="background:#f5a623"></span>
+        <span class="tr-dot" style="background:#9b27af;margin-left:-4px"></span>
+        지하철
+      </p>
+      <p class="tr-desc">
+        <strong>분당선 · 9호선</strong> 선정릉역 4번 출구 → 도보 5분 (약 470m)<br>
+        <strong>9호선</strong> 언주역 5번 출구 → 도보 9분 (약 560m)<br>
+        <strong>2호선</strong> 선릉역 5번 출구 → 도보 17분 (약 1.15km)
+      </p>
+    </div>
+    <div class="tr-item">
+      <p class="tr-title">
+        <span class="tr-dot bus-g"></span>버스
+      </p>
+      <p class="tr-desc">
+        <strong>3412 · 6411 · 8641</strong><br>
+        아크로힐스 논현 하차 (구, 경복아파트)<br><br>
+        <strong>141 · 242 · 361 · 6411</strong><br>
+        라움아트센터, 시티프라디움더강남 하차
+      </p>
+    </div>
+    <div class="tr-item">
+      <p class="tr-title">
+        <span class="tr-dot" style="background:#999"></span>자가용
+      </p>
+      <p class="tr-desc">
+        <strong>[성수대교]</strong> 아크로힐스 논현 사거리 좌회전 후 바로 우회전<br>
+        <strong>[매봉터널]</strong> 아크로힐스 논현 사거리 진입 전 우회전<br>
+        <strong>[강남역]</strong> 센터필드 교차로 좌회전 → 아크로힐스 논현 사거리 진입 전 우회전<br>
+        <strong>[잠실역]</strong> 센터필드 교차로 우회전 → 아크로힐스 논현 사거리 진입 전 우회전
+      </p>
+    </div>
+    <div class="tr-item">
+      <p class="tr-title">
+        <span class="tr-dot" style="background:#5a82c9"></span>셔틀버스
+      </p>
+      <p class="tr-desc">
+        <strong>[선릉역 5번 출구 → 라움]</strong> 예식 시작 1시간 전부터 운행<br>
+        <strong>[라움 → 선릉역 5번 출구]</strong> 예식 종료 1시간 후까지 운행
+      </p>
+    </div>
+    <div class="tr-item" style="margin-bottom:0">
+      <p class="tr-title">
+        <span class="tr-dot" style="background:#ccc"></span>주차
+      </p>
+      <p class="tr-desc">
+        기본 2시간 30분 무료<br>
+        <span style="color:#b87070">※ 예식 당일 혼잡이 예상되오니, 가급적 대중교통을 이용해 주시기 바랍니다.</span>
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- ⑥ ACCOUNT -->
+<div class="section">
+  <p class="sec-label">Account</p>
+  <p style="text-align:center;font-size:18px;font-weight:400;margin-bottom:8px">마음 전하실 곳</p>
+  <p class="acc-note">
+    참석이 어려우신 분들을 위해<br>
+    계좌번호를 안내드립니다.<br>
+    넓은 마음으로 양해해 주시면 감사하겠습니다.
+  </p>
+
+  <div class="acc-tab-wrap">
+    <button class="acc-tab active" onclick="switchTab('groom')">신랑측</button>
+    <button class="acc-tab" onclick="switchTab('bride')">신부측</button>
+  </div>
+
+  <!-- 신랑측 -->
+  <div class="acc-panel active" id="panel-groom">
+    <div class="acc-row">
+      <div class="acc-info">
+        <span class="acc-person">이규효 (아버지)</span>
+        <span class="acc-bank-num">
+          국민은행 429502-01-077510
+          <button class="copy-ico" onclick="cp(this,'429502-01-077510')">
+            <svg viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </span>
+      </div>
+    </div>
+    <div class="acc-row">
+      <div class="acc-info">
+        <span class="acc-person">전해영 (어머니)</span>
+        <span class="acc-bank-num">
+          국민은행 293-21-0399-626
+          <button class="copy-ico" onclick="cp(this,'293210399626')">
+            <svg viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </span>
+      </div>
+    </div>
+    <div class="acc-row">
+      <div class="acc-info">
+        <span class="acc-person">이은석</span>
+        <span class="acc-bank-num">
+          신한은행 110-467-816171
+          <button class="copy-ico" onclick="cp(this,'110467816171')">
+            <svg viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 신부측 -->
+  <div class="acc-panel" id="panel-bride">
+    <div class="acc-row">
+      <div class="acc-info">
+        <span class="acc-person">전광수 (아버지)</span>
+        <span class="acc-bank-num">
+          기업은행 034-032407-02-010
+          <button class="copy-ico" onclick="cp(this,'03403240702010')">
+            <svg viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </span>
+      </div>
+    </div>
+    <div class="acc-row">
+      <div class="acc-info">
+        <span class="acc-person">노순이 (어머니)</span>
+        <span class="acc-bank-num">
+          우리은행 1002-129-686464
+          <button class="copy-ico" onclick="cp(this,'1002129686464')">
+            <svg viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </span>
+      </div>
+    </div>
+    <div class="acc-row">
+      <div class="acc-info">
+        <span class="acc-person">전영아</span>
+        <span class="acc-bank-num">
+          하나은행 412-890177-80107
+          <button class="copy-ico" onclick="cp(this,'41289017780107')">
+            <svg viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<div style="background:#fff;margin-top:8px;padding:32px 28px;text-align:center;border-top:.5px solid var(--line)">
+  <p style="font-family:'Noto Sans KR',sans-serif;font-size:11px;font-weight:300;color:var(--light);letter-spacing:.12em;line-height:2">
+    이은석 · 전영아<br>
+    2026년 5월 25일
+  </p>
+</div>
+
+<script>
+/* ── Countdown ── */
+function updateCd() {
+  const target = new Date('2026-05-25T12:30:00');
+  const now    = new Date();
+  const diff   = target - now;
+  if (diff <= 0) {
+    ['cd-days','cd-hours','cd-mins','cd-secs'].forEach(id => document.getElementById(id).textContent='0');
+    document.getElementById('cd-msg').textContent = '오늘은 이은석 · 전영아의 결혼식 날입니다 🎊';
+    return;
+  }
+  const d = Math.floor(diff/86400000);
+  const h = Math.floor((diff%86400000)/3600000);
+  const m = Math.floor((diff%3600000)/60000);
+  const s = Math.floor((diff%60000)/1000);
+  document.getElementById('cd-days').textContent  = String(d).padStart(2,'0');
+  document.getElementById('cd-hours').textContent = String(h).padStart(2,'0');
+  document.getElementById('cd-mins').textContent  = String(m).padStart(2,'0');
+  document.getElementById('cd-secs').textContent  = String(s).padStart(2,'0');
+  document.getElementById('cd-msg').textContent   = `이은석 · 전영아의 결혼식까지 ${d}일 남았습니다.`;
+}
+updateCd(); setInterval(updateCd, 1000);
+
+/* ── 혼주 아코디언 ── */
+function toggleParents() {
+  const btn  = document.getElementById('parentBtn');
+  const body = document.getElementById('parentBody');
+  btn.classList.toggle('open');
+  body.classList.toggle('open');
+}
+
+/* ── 계좌 탭 ── */
+function switchTab(side) {
+  document.querySelectorAll('.acc-tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.acc-panel').forEach(p => p.classList.remove('active'));
+  const idx = side === 'groom' ? 0 : 1;
+  document.querySelectorAll('.acc-tab')[idx].classList.add('active');
+  document.getElementById('panel-' + side).classList.add('active');
+}
+
+/* ── 복사 ── */
+function cp(btn, num) {
+  navigator.clipboard.writeText(num).then(() => {
+    btn.classList.add('ok');
+    setTimeout(() => btn.classList.remove('ok'), 1500);
+  });
+}
+</script>
+</body>
+</html>
