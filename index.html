@@ -26,9 +26,9 @@
   --line:  #e8e2d9;
   --gold:  #b8964e;
   --gold2: #d4aa6a;
-  --text:  #2c2c2c;
-  --mid:   #6b6560;
-  --light: #9e9890;
+  --text:  #1a1a1a;
+  --mid:   #3d3a38;
+  --light: #6b6560;
   --rose:  #c97b7b;
   --rose2: #e8c4c4;
 }
@@ -116,8 +116,8 @@ body {
 
 /* ── INVITATION ── */
 .invite-text {
-  font-size: 14px;
-  font-weight: 300;
+  font-size: 15px;
+  font-weight: 400;
   line-height: 2.2;
   color: var(--mid);
   text-align: center;
@@ -139,14 +139,14 @@ body {
 .contact-row:first-child { border-top: .5px solid var(--line); }
 .contact-label {
   font-family: 'Noto Sans KR', sans-serif;
-  font-size: 11px;
-  font-weight: 300;
-  color: var(--light);
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--mid);
   letter-spacing: .08em;
 }
 .contact-name {
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 22px;
+  font-weight: 500;
   color: var(--text);
   letter-spacing: .1em;
 }
@@ -205,7 +205,7 @@ body {
   padding: 8px 0; border-bottom: .5px solid var(--line);
 }
 .parent-item:first-of-type { border-top: .5px solid var(--line); }
-.pname { font-size: 12px; font-weight: 400; color: var(--text); }
+.pname { font-size: 15px; font-weight: 500; color: var(--text); }
 .p-icons { display: flex; gap: 6px; }
 
 /* ── CALENDAR ── */
@@ -421,7 +421,7 @@ body {
 .tr-dot.bus-bl { background: #3869c9; }
 .tr-desc {
   font-family: 'Noto Sans KR', sans-serif;
-  font-size: 12px; font-weight: 300; color: var(--mid);
+  font-size: 13px; font-weight: 400; color: var(--mid);
   line-height: 1.9; padding-left: 14px;
 }
 .tr-desc strong { font-weight: 500; color: var(--text); }
@@ -441,26 +441,26 @@ body {
 .acc-tab.active { background: var(--text); color: #fff; }
 .acc-note {
   font-family: 'Noto Sans KR', sans-serif;
-  font-size: 12px; font-weight: 300; color: var(--mid);
+  font-size: 14px; font-weight: 400; color: var(--mid);
   text-align: center; line-height: 1.9; margin-bottom: 20px;
 }
 .acc-panel { display: none; }
 .acc-panel.active { display: block; }
 .acc-row {
   display: flex; align-items: center; justify-content: space-between;
-  padding: 13px 14px;
+  padding: 14px 16px;
   border: .5px solid var(--line); border-radius: 6px;
   margin-bottom: 8px;
 }
 .acc-info { flex: 1; }
 .acc-person {
-  font-size: 13px; font-weight: 400; color: var(--text);
-  display: block; margin-bottom: 4px;
+  font-size: 16px; font-weight: 500; color: var(--text);
+  display: block; margin-bottom: 5px;
 }
 .acc-bank-num {
   font-family: 'Noto Sans KR', sans-serif;
-  font-size: 11.5px; font-weight: 300; color: var(--mid);
-  display: flex; align-items: center; gap: 4px;
+  font-size: 15px; font-weight: 500; color: var(--mid);
+  display: flex; align-items: center; gap: 6px;
 }
 .copy-ico {
   background: none; border: none; cursor: pointer; padding: 2px;
@@ -576,7 +576,7 @@ body {
   <div class="divider"></div>
 
   <!-- 혼주 정보 텍스트 -->
-  <p style="text-align:center;font-family:'Noto Sans KR',sans-serif;font-size:12.5px;font-weight:300;color:var(--mid);line-height:2.2;margin-bottom:24px">
+  <p style="text-align:center;font-family:'Noto Sans KR',sans-serif;font-size:15px;font-weight:400;color:var(--mid);line-height:2.4;margin-bottom:24px">
     부 이규효 · 모 전해영의 차남 <strong style="font-weight:500;color:var(--text)">이은석</strong><br>
     부 전광수 · 모 노순이의 장녀 <strong style="font-weight:500;color:var(--text)">전영아</strong>
   </p>
@@ -818,11 +818,11 @@ body {
 <!-- NOTICE -->
 <div class="section">
   <p class="sec-label">Notice</p>
-  <div style="text-align:center;padding:4px 0">
-    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#c9a96e" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" style="display:block;margin:0 auto 12px"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-    <p style="font-family:'Noto Sans KR',sans-serif;font-size:15px;font-weight:300;color:var(--mid);line-height:2.2;word-break:keep-all">
-      축하해 주시는 따뜻한 마음만 감사히 받겠습니다.<br>
-      화환은 정중히 사양하오니<br>
+  <div style="text-align:center;padding:20px 16px;background:#fffbf5;border:1.5px solid var(--gold2);border-radius:10px">
+    <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#b8964e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="display:block;margin:0 auto 14px"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+    <p style="font-family:'Noto Sans KR',sans-serif;font-size:16px;font-weight:500;color:var(--text);line-height:2.3;word-break:keep-all">
+      축하해 주시는 따뜻한 마음만<br>감사히 받겠습니다.<br>
+      <span style="color:var(--gold);font-weight:500">화환은 정중히 사양하오니</span><br>
       너그러운 양해 부탁드립니다.
     </p>
   </div>
